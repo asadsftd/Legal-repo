@@ -59,6 +59,7 @@ header{
 }
 #banner-search{
     display: flex;
+    margin-top: 12px;
 }
 input{
     width: 100%;
@@ -74,6 +75,95 @@ input{
 }
 #banner{
     width: 100%;
+}
+/* main styles */
+  main{
+    width: 90%;
+    margin:20px auto;
+}
+/* legal */
+#legal{
+    margin-top: 60px;
+}
+#legal-title{
+    text-align: center;
+}
+#title{
+    font-size: 35px;
+    font-weight: bold;
+}
+#legal-dspt{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+#legal-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin:60px auto;
+    text-align: center;
+}
+#legal-img{
+    margin: auto;
+}
+#legal-container h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+#legal-container p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#legal-content-one{
+    background: linear-gradient(
+    rgb(224, 251, 171), rgb(183, 217, 245)
+
+    );
+    padding: 15px 0px;
+    border-radius: 12px;
+}
+#legal-content-two{
+    background: linear-gradient(
+    rgb(239, 201, 201), gray
+
+    );
+    padding: 15px 0px;
+    border-radius: 12px;
+}
+#legal-content-three{
+    background: linear-gradient(
+    rgb(248, 177, 177), rgb(154, 75, 249)
+
+    );
+    padding: 15px 0px;
+    border-radius: 12px;
+}
+#legal-content-four{
+    background: linear-gradient(
+    rgb(222, 252, 234), rgb(102, 119, 80)
+
+    );
+    padding: 15px 0px;
+    border-radius: 12px;
+}
+#legal-content-five{
+    background: linear-gradient(
+    rgb(234, 246, 147), rgb(254, 207, 238)
+
+    );
+    padding: 15px 0px;
+    border-radius: 12px;
+}
+#legal-content-six{
+    background: linear-gradient(
+    rgb(239, 201, 201), rgb(253, 216, 187)
+
+    );
+    padding: 15px 0px;
+    border-radius: 12px;
 }
 
 
@@ -107,12 +197,19 @@ input{
         width:40%;
     }
     /* Banner  */
+    #banner{
+        height: 200px;
+        padding: 2px 0px;
+        border-radius: 10px;
+        
+    }
     #banner-title{
-        font-size: 25px;
+        font-size: 18px;
     }
     #banner-dspt{
         width: 80%;
-        margin:10px auto;
+        margin: auto;
+        font-size: 14px;
     }
     #banner-search{
         width: 80%;
@@ -121,7 +218,29 @@ input{
         
        
     }
+    #btn-primary{
+        position: relative;
+        top: -15px;
+        font-size: 18px;
+    }
     input{
         width: 70%;
+        padding: 0px;
+        position: relative;
+        top: -15px;
     }
+    /* legal */
+    #legal-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    #legal-dspt{
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+    #title{
+        font-size: 20px;
+    }
+   
 }
